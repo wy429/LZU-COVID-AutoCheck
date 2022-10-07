@@ -26,7 +26,7 @@ def getSubmit(auToken, dailyCookie, info, FilledInfo):
         "bh": info_data['bh'],  # 编号
         "xykh": info_data['xykh'],  # 校园卡号
         "twfw": "0",  # 体温范围(0为小于37.3摄氏度)
-        "jkm": "0", # 健康码(0为绿码)
+        "jkm": "1", # 健康码(0为绿码)
         "sfzx": "1",  # 是否在校(0离校，1在校)
         "sfgl": "0",  # 是否隔离(0正常，1隔离)
         "szsf": info_data['szsf'] if info_data['szsf'] else "",  # 所在省份（没有打过卡或在校则为空）
